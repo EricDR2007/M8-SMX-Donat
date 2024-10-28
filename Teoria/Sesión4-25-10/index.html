@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lamorghini</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
@@ -12,9 +13,11 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Meie+Script&display=swap" rel="stylesheet">
     <style>
+        /*Aquí pusimos un Padding y un Margin de 0 para toda la página*/
        *{
         padding: 0;
         margin: 0;
+        /*Aquí editamos el Nav, le psuimos un fondo de color Whitesmoke, un Padding de 40 pixeles, un tamaño de letra de 20 pixeles y de tipo de letra le psuimos Afacad Flux (la cogimos de Google fonts)*/
        }
        nav ¨{
             background-color: whitesmoke;
@@ -22,13 +25,13 @@
             font-size: 20px;
             font-family: "afacad flux";
         }
-
+        /*En la lista desordenada le quitamos los puntos y le pusimos espacios más grandes entre ellos.*/
         ul {
             display: flex;
             gap: 50px;
             list-style: none;
         }
-
+        /*En el Header lre pusimos una imagen de fondo que nos paso Albert por el meet, alineamos todos los textos al medio, hicimos que la imagen de fondo ocupase todo el espacio, lo hicimos más grande y le pusimos un espaciado con la lista desordenada.*/
         header {
             background-image: url(https://i.pinimg.com/originals/b1/22/59/b12259690a81d10422288d253119811a.jpg);
             text-align: center;
@@ -36,19 +39,18 @@
             height: 90%;
             padding-top: 150px;
         }
-
+        /*A la imagen de el Lamborghini solo le pusímos 400 pixeles de Widith*/
         .img-logo-lambo{
             width: 400px;
-
         }
-
+        /*Al h1 del HEader le cambiamos el color de texto a Whitesmoke, le pusimos un tamañao de letra de 50 pixeles, un Padding de 10 pixeles y un tipo de letra que descargamos de Google fonts que se llama Meie Script.*/
         header h1 {
             color: whitesmoke;
             font-size: 50px;
             padding: 10px;
             font-family: "meie script";
         }
-
+        /*Al h2 del Header le pusimos el mismo color que al h1, le pusimos un tamaño de 30 pixeles, le psuimos espaciado tanto arriba como abajo y le pusimos el tipo de letra Afacad Flux.*/
         header h2{
             color: whitesmoke;
             font-size: 30px;
@@ -58,7 +60,7 @@
             padding-top: 10px;
             font-family: "afacad flux";
         }
-
+        /*En el Button pusimos un Padding de 20 pixeles, un color de fondo dorado, le quitamos el borde y le pusimnos el tipo de letra Afacad Flux.*/
         header button{
             padding: 20px;
             background-color: goldenrod;
@@ -66,7 +68,7 @@
             border-radius: 5px;
             font-family: "afacad flux";
         }
-
+        /*Le pusimos 100vh tanto al Html como al Body*/
         html,
         body{
             height: 100vh;
@@ -76,7 +78,7 @@
 
 </head>
 <body>
-   
+    <!--Aquí hemos puesto un Nav con una lista desordenadad-->
         <nav>
             <ul>
                 <li>Nuestros coches</li>
@@ -85,13 +87,14 @@
                 <li>Contactanos</li>
             </ul>
         </nav>
-
+    <!--Dentro del Header hemos puesto una imagen del logo de Lamborghini, un H1, un h2 y por último unh Button.-->
     <header>
         <img class="img-logo-lambo" src="https://fbi.cults3d.com/uploaders/29182030/illustration-file/3d68fb36-b229-4c1e-a621-09d24aaa6476/lamborghini-logo-lamborghini-bull-logo-19.png" alt="Logo de lamborghini-logo-lamborghini-bull-logo-19">
         <h1>Welcome to motor paradise</h1>
         <h2>You can't hide who you are</h2>
         <button>GET STARTED</button>
     </header>
+    <!--Aquí ibamnos a empezar a hacer el Main y el Footer pero no tuvimos tiempo-->
     <main></main>
     <footer></footer>
 
