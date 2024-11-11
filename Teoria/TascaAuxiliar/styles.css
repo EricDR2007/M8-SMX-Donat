@@ -4,15 +4,38 @@ main {
     background-color: brown;
 }
 
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+#libro {
+    color: orangered;
+}
+
 #datos {
     color: blue;
 }
 
 #descripcion {
+    background-color: royalblue;
+}
+p {
+    color: white;
+}
 
+#p1 {
+    color: white;
 }
 
 #contenido {
     
+}
+
+li {
+    color: blue;
 }
 
