@@ -4,13 +4,17 @@ body {
 
 main {
     background-color: brown;
+    padding: 50px;
 }
 
 h1 {
-    color: white;
+    border: yellow 5px solid;
+    padding: 10px;
 }
 
 h2 {
+    border: palevioletred 3px solid;
+    padding: 5px;
     color: white;
 }
 
