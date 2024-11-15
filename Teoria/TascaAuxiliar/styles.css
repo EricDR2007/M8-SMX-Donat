@@ -1,7 +1,8 @@
 body { 
     margin: 0;
-    background-image: url('https://images.unsplash.com/photo-1457369804613-52c61a468e7d?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGxpYnJvcyUyMGFiaWVydG9zfGVufDB8fDB8fHww');}
-
+    background-image: url('https://images.unsplash.com/photo-1457369804613-52c61a468e7d?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGxpYnJvcyUyMGFiaWVydG9zfGVufDB8fDB8fHww');
+    padding: 70px;
+    
 main {
     background-color: brown;
     padding: 50px;
@@ -10,6 +11,8 @@ main {
 h1 {
     border: yellow 5px solid;
     padding: 10px;
+    font-family: "Doto";}
+    color: white;
 }
 
 h2 {
@@ -22,12 +25,12 @@ h2 {
     color: orangered;
 }
 
-#datos {
+ul {
     border: green solid 5px;
     color: blue;
 }
 
-#datos li{ 
+ul li{ 
     padding: 10px;
     color: blue;
 }
@@ -35,11 +38,23 @@ h2 {
 #descripcion {
     background-color: darkslateblue;
     text-align: center;
+    padding: 40px;
+    color: white;
+    width: 50%;
+    margin: auto;
 }
 
-#description h2{
+#descripcion h2{
     color: pink;
     border: none;
+}
+
+#contenido{
+    color: white;
+}
+
+.laquetuquieras {
+    color: white;
 }
 
 
