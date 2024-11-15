@@ -23,25 +23,26 @@ h2 {
 }
 
 #datos {
+    border: green solid 5px;
+    color: blue;
+}
+
+#datos li{ 
+    padding: 10px;
     color: blue;
 }
 
 #descripcion {
-    background-color: royalblue;
-}
-p {
-    color: white;
+    background-color: darkslateblue;
+    text-align: center;
 }
 
-#p1 {
-    color: white;
+#description h2{
+    color: pink;
+    border: none;
 }
 
-#contenido {
-    
-}
 
-li {
-    color: blue;
-}
+
+
 
