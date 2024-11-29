@@ -3,7 +3,6 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     color: white;
-    background-image: url("https://static.vecteezy.com/system/resources/previews/009/975/366/non_2x/black-wooden-texture-dark-background-blank-for-design-free-photo.jpg");
 }
 
 .navbar {
@@ -43,7 +42,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 50px;
-    background: #000 url('background.jpg') no-repeat center/cover;
+    background: url('https://static.vecteezy.com/system/resources/previews/009/975/366/non_2x/black-wooden-texture-dark-background-blank-for-design-free-photo.jpg') no-repeat center/cover;
     height: 100vh;
 }
 
