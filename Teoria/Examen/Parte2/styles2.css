@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: "Libre Baskerville";
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -55,8 +55,8 @@ body {
 }
 
 .lista {
-  list-style: none;
-  padding: 0;
+  padding: 10;
+  color: black;
 }
 
 .lista li {
@@ -67,7 +67,3 @@ body {
   align-items: center;
 }
 
-.lista li::before {
-  content:"✔️";
-  margin-right: 10px;
-}
