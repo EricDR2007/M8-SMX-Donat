@@ -52,12 +52,13 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 20px;
   }
   
   
   .imagen img {
-    max-width: 100%;
-    width: 600px;
+    max-width: 1000%;
+    width: 700px;
     height: 350px;
   }
   
