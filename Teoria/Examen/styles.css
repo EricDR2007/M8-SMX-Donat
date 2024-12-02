@@ -11,7 +11,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 40px;
-    background-color: #ffffff;
+    background-color: white;
   }
   
   .contenido {
@@ -49,18 +49,17 @@ body {
     text-decoration: none;
   }
   
-  .image {
+  .imagen {
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
   }
   
   
-  .image img {
+  .imagen img {
     max-width: 100%;
-    border-radius: 8px;
-    width: 100px;
-    height: 100px;
+    width: 600px;
+    height: 350px;
   }
   
   .footer {
