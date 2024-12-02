@@ -68,8 +68,6 @@ body {
 }
 
 .lista li::before {
-  border-bottom: ;
-  border-right: ;
   content:"✔️";
   margin-right: 10px;
 }
