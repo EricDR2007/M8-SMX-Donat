@@ -6,11 +6,33 @@
     <title>Formularios</title>
 </head>
 <body>
-    <div class="container">
-        <form action="index.html"></form>
+    <div class="">
+        <form action="index.html" style="text-align: center; margin-auto; width: 25%; display: flex; flex-direction: column">
             
-            <label for="">Nombre</label>
-            <input type="number">
+            <label for="name">Nombre</label>
+            <input type="text" id="name" name="nombre" required>
+
+            <label for="surname">Apellidos</label>
+            <input type="text" id="surname" name="cognoms">
+
+            <label for="email">Correu electònic</label>
+            <input type="email">
+
+            <label for="mensaje"></label>
+            <textarea name="mensaje" id="mensaje"></textarea>
+
+            <input type="radio" id="femenino" name="genero" value="femenino">
+            <label for="femenino">Femenino</label>
+
+            <p>Intereses:</p>
+            <input type="checkbox" id="deportes" name="intereses" value="deportes">
+            <label for="deportes">Deportes</label>
+            <input type="checkbox" id="musica" name="intereses" value="musica">
+            <label for="musica">Música</label>
+
+
+
+        </form>
     </div>
 </body>
 </html>
