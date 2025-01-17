@@ -7,7 +7,7 @@
 </head>
 <body>
     <div class="">
-        <form action="index.html" style="text-align: center; margin-auto; width: 25%; display: flex; flex-direction: column">
+        <form action="index.html" style="text-align: center; margin-auto; width: 25%; display: flex; flex-direction: column"
             
             <label for="name">Nombre</label>
             <input type="text" id="name" name="nombre" required>
@@ -31,7 +31,10 @@
             <label for="musica">Música</label>
 
             <label for="seleccion-genero">Género</label>
-            <select name="gen" id="seleccion-genero"></select>
+            <select name="gen" id="seleccion-genero">
+                <option value="">Selecciona un género</option>
+                <option value="Rap">Rap</option>
+            </select>
 
 
         </form>
