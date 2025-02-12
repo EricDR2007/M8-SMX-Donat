@@ -1,13 +1,13 @@
-.tablas(
+.tablas{
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
-)
+}
 
-th(
+th{
     background-color:
-)
+}
 
-td,th(
+td,th{
     padding: 5px;
-)
+}
