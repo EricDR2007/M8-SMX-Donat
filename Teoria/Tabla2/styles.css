@@ -1,0 +1,34 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    height: 50px;
+    width: 70px;
+}
+
+.manualidades { background-color: #ffc219; }
+.latin { background-color: #F08080; }
+.robotica { background-color: #b59fe2; }
+.arte { background-color: #54c454; }
+.ingenieria { background-color: #f0ed38; }
+.japones { background-color: #4be9f5; }
+.tutoria { background-color: #b8b8b8; }
+.refuerzo { background-color: #FF69B4; }
+.cartografia { background-color: #FF8C00; }
+.taller { background-color: #ee52d9; }
+.modelismo { background-color: #d6df57; }
+.recreo { background-color: #FFFFFF; font-weight: bold; }
+
+th, img{
+    height: 30px;
+    width: 30px;
+}
