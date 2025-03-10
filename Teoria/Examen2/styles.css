@@ -153,7 +153,7 @@ td a:hover {
     
 }
 h1 {
-    color: #e63946;
+    color: #ff4655;
 }
 form {
     display: flex;
@@ -168,7 +168,7 @@ input, select, textarea {
     border-radius: 5px;
 }
 button {
-    background-color: #e63946;
+    background-color: #ff4655;
     color: white;
     border: none;
     padding: 10px;
