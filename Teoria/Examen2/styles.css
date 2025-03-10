@@ -199,6 +199,8 @@ button:hover {
 .container3 {
     text-align: center;
     width: 80%;
+    align-items: center;
+    margin: auto;
 }
 .cards {
     display: flex;
@@ -220,7 +222,7 @@ button:hover {
     border-radius: 5px;
 }
 .card h3 {
-    color: #e63946;
+    color: #ff4655;
 }
 .card p {
     font-size: 14px;
@@ -230,7 +232,7 @@ button:hover {
     margin-top: 10px;
 }
 .card button {
-    background-color: #e63946;
+    background-color: #ff4655;
     color: white;
     border: none;
     padding: 10px;
@@ -239,5 +241,5 @@ button:hover {
     margin-top: 10px;
 }
 .card button:hover {
-    background-color: #d62839;
+    background-color: #ff4655;
 }
