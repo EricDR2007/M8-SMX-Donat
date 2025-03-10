@@ -93,6 +93,7 @@ body {
     max-width: 900px;
     margin: auto;
     color: white;
+    text-align: center;
 }
 
 h2 {
@@ -102,14 +103,14 @@ h2 {
 
 p {
     margin-bottom: 20px;
-    font-size: 14px;
-    color: #bbb;
+    font-size: 16px;
+    color: white;
 }
 
 table {
     width: 100%;
     border-collapse: collapse;
-    background-color: #13161d;
+    background-color: #1b243a;
     border-radius: 10px;
     overflow: hidden;
 }
