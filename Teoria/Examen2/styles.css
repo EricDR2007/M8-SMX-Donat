@@ -142,7 +142,7 @@ td a:hover {
 
 
 .container2 {
-    background-color: #1f2937;
+    background-color: #0b1620;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
@@ -160,13 +160,23 @@ form {
     flex-direction: column;
     gap: 20px;
     align-items: center;
+    color: white;
 }
+
+input{
+    background-color: #1b243a;
+    color: white;
+}
+
 input, select, textarea {
     width: 100%;
     padding: 10px;
     border: none;
     border-radius: 5px;
+    background-color: #1b243a;
+    color: white;
 }
+
 button {
     background-color: #ff4655;
     color: white;
@@ -178,3 +188,4 @@ button {
 button:hover {
     background-color: #d62839;
 }
+
