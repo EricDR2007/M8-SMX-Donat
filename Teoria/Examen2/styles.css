@@ -148,6 +148,8 @@ td a:hover {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     width: 350px;
     text-align: center;
+    align-items: center;
+    
 }
 h1 {
     color: #e63946;
@@ -155,7 +157,8 @@ h1 {
 form {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 20px;
+    align-items: center;
 }
 input, select, textarea {
     width: 100%;
