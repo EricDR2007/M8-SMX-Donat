@@ -21,6 +21,7 @@ body {
 }
 .navbar ul {
     list-style: none;
+    font-size: 16px;
     margin-left: 150;
     padding: 0;
     display: flex;
@@ -67,7 +68,7 @@ body {
 }
 
 .hero .btn {
-    background-color: red;
+    background-color:  #ff4655;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
@@ -79,4 +80,75 @@ body {
 
 .hero .btn:hover {
     background-color: darkred;
+}
+
+
+
+
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #131820;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+}
+
+h2 {
+    color:  #ff4655;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #bbb;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #13161d;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th {
+    background-color: #ff4655;
+}
+
+th, td {
+    padding: 12px;
+    text-align: center;
+}
+
+th {
+    color: white;
+    font-weight: bold;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #1b1f2a;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #10131a;
+}
+
+td a {
+    color:  #ff4655;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+td a:hover {
+    text-decoration: underline;
 }
