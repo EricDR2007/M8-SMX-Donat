@@ -253,3 +253,9 @@ button:hover {
     align-items: center;
     margin: auto;
 }
+
+iframe{
+    width: 80%;
+    max-width: 800px;
+    height: 450px;
+}
