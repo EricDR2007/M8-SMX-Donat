@@ -1,4 +1,38 @@
 body {
-
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #0f1923;
+}
+.navbar {
+    background-color: #0f1923;
+    padding: 15px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
+.navbar .logo {
+    font-size: 18px;
+    font-weight: bold;
+    color:  #ff4655;
+    margin-right: 1000px;
+
+  
+}
+.navbar ul {
+    list-style: none;
+    margin-left: 150;
+    padding: 0;
+    display: flex;
+}
+.navbar ul li {
+    margin: 0 10px;
+}
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+.navbar ul li a:hover {
+    text-decoration: underline;
+}
