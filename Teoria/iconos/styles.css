@@ -6,12 +6,16 @@ ul{
     height: 100px;
     justify-content: space-between;
     align-items: center;
+    padding: 0;
 }
 
-ul, li{
+ul li{
     list-style: none;
+    background-color: brown;
+    padding: 1em;
 }
 
-ul, li, i{
+ul li i{
     color: white;
+    font-size: 40px;
 }
