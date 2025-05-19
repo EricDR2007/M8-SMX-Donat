@@ -105,15 +105,14 @@ footer {
 .cafe button {
   margin-top: 10px;
   padding: 10px 15px;
-  background-color: #702c2c;
-  color: white;
+  background-color: white;
+  color: #702c2c;
   border: none;
-  border-radius: 5px;
   cursor: pointer;
 }
 
 .cafe button:hover {
-  background-color: #5a2121;
+  background-color: white;
 }
 
 .seccion2 {
