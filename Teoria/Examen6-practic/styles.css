@@ -21,8 +21,12 @@ ul li i{
   width: 100%;
 }
 
+.persona{
+    background-color: #A52A2A;
+}
+
 .persona img {
-  border-radius: 1000px;
+  border-radius: 100px;
   width: 100px;
   margin-bottom: 10px;
 }
