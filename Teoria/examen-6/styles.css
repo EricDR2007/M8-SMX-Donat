@@ -90,14 +90,6 @@ footer {
   margin-bottom: 10px;
 }
 
-.seccion2 {
-  display: flex;
-  margin-top: 20px;
-  padding: 20px;
-  border-radius: 8px;
-  gap: 20px;
-}
-
 .cafe img {
   width: 250px;
   border-radius: 5px;
@@ -117,9 +109,11 @@ footer {
 }
 
 .seccion2 {
-  margin-top: 40px;
   display: flex;
-  align-items: center;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 8px;
+  gap: 20px;
 }
 
 .seccion2, h2 {
