@@ -91,6 +91,11 @@ footer {
   margin-bottom: 10px;
 }
 
+.cafe {
+  padding: 0px;
+  margin: 0px;
+}
+
 .cafe img {
   width: 250px;
   border-radius: 5px;
