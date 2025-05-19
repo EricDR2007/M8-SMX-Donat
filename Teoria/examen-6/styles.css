@@ -1,32 +1,42 @@
 body {
-  font-family: "roboto";
+  font-family: 'Open Sans', sans-serif;
   color: #333;
   display: flex;
   height: 100vh;
 }
 
+.container {
+  display: flex;
+  width: 1000px;
+  height: 1000px;
+  background-image: url("https://static.vecteezy.com/system/resources/thumbnails/051/266/702/small/a-person-walking-down-an-empty-road-in-the-middle-of-nowhere-photo.jpg");
+  background-repeat: no-repeat;
+}
+
 ul li{
     list-style: none;
     background-color: rgb(105, 36, 36);
-    padding: 1em;
+    padding: 10px;
+    gap: 5px;
 }
 
 ul li i{
     color: white;
-    font-size: 40px;
+    font-size: 20px;
 }
 
-.container {
+.sidebar {
+  width: 250px;
+  background-color: #702c2c;
+  color: white;
   display: flex;
-  width: 100%;
-}
-
-.persona{
-    background-color: brown;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
 }
 
 .persona img {
-  border-radius: 1000px;
+  border-radius: 50%;
   width: 100px;
   margin-bottom: 10px;
 }
@@ -44,6 +54,7 @@ ul li i{
   display: block;
   padding: 10px;
   color: white;
+  text-decoration: none;
 }
 
 .menu a:hover {
@@ -51,15 +62,16 @@ ul li i{
   color: #702c2c;
 }
 
-.redes-sociales {
+.redes-socials {
   display: flex;
   gap: 10px;
   margin-top: auto;
   padding: 10px 0;
 }
 
-.redes-sociales img {
+.redes-socials img {
   width: 20px;
+  filter: invert(1);
 }
 
 footer {
@@ -68,19 +80,19 @@ footer {
   margin-top: 10px;
 }
 
-.contenido {
+.content {
   flex: 1;
   background: #f4f4f4;
   padding: 40px;
   overflow-y: auto;
 }
 
-.about-me h1 {
+.seccion h1 {
   font-size: 2rem;
   margin-bottom: 10px;
 }
 
-.cafe {
+.seccion2 {
   display: flex;
   margin-top: 20px;
   background: white;
@@ -109,11 +121,11 @@ footer {
   background-color: #5a2121;
 }
 
-.persona {
+.seccion2 {
   margin-top: 40px;
 }
 
-.persona img {
+.seccion2 img {
   width: 100%;
   margin-top: 15px;
   border-radius: 5px;
