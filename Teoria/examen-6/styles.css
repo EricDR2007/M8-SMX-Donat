@@ -48,6 +48,7 @@ ul li i{
 .menu {
   width: 100%;
   margin: 20px 0;
+  text-align: center;
 }
 
 .menu a {
