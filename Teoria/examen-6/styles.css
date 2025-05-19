@@ -10,6 +10,7 @@ body {
   background-image: url("https://static.vecteezy.com/system/resources/thumbnails/051/266/702/small/a-person-walking-down-an-empty-road-in-the-middle-of-nowhere-photo.jpg");
   background-repeat: no-repeat;
   background-size: 2000px;
+  color: white;
 }
 
 ul li{
@@ -117,10 +118,19 @@ footer {
 
 .seccion2 {
   margin-top: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.seccion2, h2 {
+  display: flex;
+  margin-bottom: 150px;
+  align-items: center;
+  
 }
 
 .seccion2 img {
-  width: 100%;
+  width: 50%;
   margin-top: 15px;
   border-radius: 5px;
 }
