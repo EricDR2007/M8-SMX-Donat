@@ -18,6 +18,7 @@ ul li{
     background-color: rgb(105, 36, 36);
     padding: 10px;
     gap: 5px;
+    cursor: pointer;
 }
 
 ul li i{
